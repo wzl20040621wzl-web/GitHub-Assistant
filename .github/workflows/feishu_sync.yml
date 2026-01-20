@@ -31,4 +31,3 @@ jobs:
           COMMIT_URL: ${{ github.event.head_commit.url }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python scripts/feishu_bot.py        
-111
