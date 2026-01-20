@@ -1,4 +1,4 @@
-name: Sync to Feishu
+                                        name: Sync to Feishu
 
 on:
   push:
@@ -30,5 +30,4 @@ jobs:
           COMMIT_AUTHOR: ${{ github.event.head_commit.author.name }}
           COMMIT_URL: ${{ github.event.head_commit.url }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python scripts/feishu_bot.py 111
-111
+        run: python scripts/feishu_bot.py 111       
